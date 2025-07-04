@@ -10,7 +10,7 @@ DOMAIN: FULL STACK WEB DEVELOPMENT
 
 BATCH DURATION: JUNE 5th,2025 to JULY 5th, 2025
 
-MENTOR NAME : NEELA SANTHOSH KUMAR
+MENTOR NAME : NEELA SANTHOSH
 
 
 This project is a real-time collaborative document editing application that allows multiple users to work together on the same document simultaneously. It uses modern web technologies to provide a seamless and synchronized editing experience across different devices or browser tabs.
