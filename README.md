@@ -61,6 +61,10 @@ Download Node.js
 
 npm (comes with Node.js)
 
-MongoDB Atlas Account (or local MongoDB instance)
-Create a free cluster
+MongoDB Atlas Account (or local MongoDB instance)  (Create a free cluster)
 Create a .env file in the server/ folder with: MONGO_URI=your_mongodb_connection_string
+
+# Output
+<img width="1299" height="718" alt="Image" src="https://github.com/user-attachments/assets/6c550ab0-1f36-4e4b-8b11-383daaa492f8" />
+<img width="1294" height="703" alt="Image" src="https://github.com/user-attachments/assets/2da2e029-3e6e-4823-82ea-ea3ca3dd6bc8" />
+<img width="1112" height="565" alt="Image" src="https://github.com/user-attachments/assets/1d6cb610-eb0d-4883-9647-20069c7b21b0" />
