@@ -1,6 +1,21 @@
 # 📄 Real-Time Collaborative Document Editor
 
-A real-time document editor that allows multiple users to collaborate on documents simultaneously using WebSockets and Quill. Documents are persisted to MongoDB, and each user is identified by a unique user ID. users with same user id can work in same editor for real -time document editing 
+COMPANY: CODTECH IT SOLUTIONS
+
+NAME: JAMPALA SHIVANI
+
+INTERN ID: CT04DF2899
+
+DOMAIN: FULL STACK WEB DEVELOPMENT
+
+BATCH DURATION: JUNE 5th,2025 to JULY 5th, 2025
+
+MENTOR NAME : NEELA SANTHOSH KUMAR
+
+
+This project is a real-time collaborative document editing application that allows multiple users to work together on the same document simultaneously. It uses modern web technologies to provide a seamless and synchronized editing experience across different devices or browser tabs.
+The frontend is built with React.js and Quill.js (a rich text editor), while the backend is developed using Node.js, Express.js, and Socket.IO for real-time communication. Document data is stored and retrieved from MongoDB Atlas, ensuring persistent storage of user-generated content.
+Documents are persisted to MongoDB, and each user is identified by a unique user ID. users with same user id can work in same editor for real -time document editing 
 
 ## 🚀 Features
 
