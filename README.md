@@ -70,7 +70,7 @@ project-root/
 ✅ Prerequisites
 Before you begin, ensure you have the following installed on your system:
 
-🔧 Software
+# 🔧 Software
 
 Node.js (v14 or higher)
 
