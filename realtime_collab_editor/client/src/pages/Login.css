@@ -1,0 +1,61 @@
+/* Login.css */
+.login-container {
+ /* background: linear-gradient(to right, #141e30, #243b55);
+  height: 100vh;*/
+  
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+.login-container {
+  background: url('/home/rguktongole/Desktop/final/chatgpt_task3/client/public/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+.login-box {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 40px;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  color: white;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.login-box input {
+  padding: 12px;
+  margin-top: 15px;
+  width: 250px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.login-box button {
+  
+  padding: 12px 30px;
+  background-color: #00b894;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* spacing between buttons */
+  margin-top: 20px;
+}
+
+
+.login-box button:hover {
+  background-color: #019875;
+}
+

@@ -1,0 +1,96 @@
+/* Make sure body takes full height and no scroll */
+body, html, #root {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+.editor-container {
+  height: 100vh;
+  width: 100%;
+  background: #807c7c; /* Your image */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 20px;
+  overflow: hidden;
+}
+
+.editor-toolbar {
+  width: 85%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 12px 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+.editor-toolbar{
+   background:#d1cdcd;
+   }
+.editor-toolbar h2 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #2d3436;
+}
+
+.save-btn,
+.leave-btn {
+  background-color: #333131;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin-left: 10px;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.save-btn:hover,
+.leave-btn:hover {
+  background-color: #636e72;
+}
+
+
+.editor-box {
+  background: rgba(255, 255, 255, 0.96);
+  border-radius: 14px;
+  width: 85%;
+  max-width: 1200px;
+  height: 75vh;
+  padding: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.ql-toolbar {
+  background-color: #f1f2f6;
+  border-radius: 8px 8px 0 0;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+.ql-container {
+  flex-grow: 1;
+  overflow-y: auto;
+  border-radius: 0 0 10px 10px;
+  padding: 10px;
+  background: #ffffff;
+}
+
+.ql-editor {
+  min-height: 500px;
+  font-size: 16px;
+  color: #2d3436;
+  border-radius: 10px;
+}
+
